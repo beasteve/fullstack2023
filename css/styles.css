@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+h1{
+    color: #c02b44;
+    font-size: 43px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
