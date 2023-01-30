@@ -4,4 +4,8 @@ Buenos discnb
 prueba de primer  PULL
 =======
 Buenos diascnb
+<<<<<<< HEAD
 >>>>>>> f78aeb8caac9dcaf84bee91dbcbcba5fde2aceb0
+=======
+3 commit hoy
+>>>>>>> e4b303c75b49c6d73b5d657c45d1b3dfb62f502b
