@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Hola Stephen
 Buenos discnb
+prueba de primer  PULL
+=======
+Buenos diascnb
+>>>>>>> f78aeb8caac9dcaf84bee91dbcbcba5fde2aceb0
