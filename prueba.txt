@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 Hola Stephen
-Buenos discnb
+Buenos diascnb
 prueba de primer  PULL
 =======
 Buenos diascnb
