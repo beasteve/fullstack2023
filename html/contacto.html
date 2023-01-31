@@ -1,44 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <style>
-        body{
+        body {
             text-align: center;
         }
-        
-        h1{
+
+        h1 {
             color: red;
             font-size: 40px;
             font-weight: bold;
         }
-        h3{
+
+        h3 {
             font-size: 25px;
             font-weight: bold;
             cursor: pointer;
             color: aqua;
         }
-        button{
+
+        button {
             border: none;
             border-radius: 14px;
             letter-spacing: 0.5rem;
             padding: 10px;
             cursor: pointer;
         }
+        .parra{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        p {
+            border: 2px solid gray;
+            color: #ab824c;
+            border-radius: 10px;
+            font-size: 20px;
+            min-width: none;
+            width: 300px;
+            text-align: center;
+            padding: 30px;
+            align-items: center;
+            transform: rotate(10deg);
+
+
+        }
+        p:hover{
+            background-color: #c3c3c3;
+            color: aqua;
+            transition: all 0.10s ease;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 45px;
+            transform: rotate(-10deg);
+            
+        }
     </style>
 </head>
+
 <body>
     <h1>Contacto Dirección</h1>
     <h3>Stephen Karikari</h3>
-    <p><em>Carrer de Xuquer 12</em> </p>
-    <p><em>Terrassa, Barcelona</em> </p>
-    <p><em>Telefono, 1234567809</em> </p>
+    <div class="parra">
+        <p><em>Carrer de Xuquer 12</em> </p>
+        <p><em>Terrassa, Barcelona</em> </p>
+        <p><em>Telefono, 1234567809</em> </p>
+    </div>
     <!-- <button>Submit</button>  -->
     <br>
 
     <a href="./home.html">Volve </a>
 </body>
+
 </html>
