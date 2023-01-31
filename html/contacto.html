@@ -8,7 +8,8 @@
     <title>Contacto</title>
     <style>
         body {
-            text-align: center;
+            margin: 0;
+            padding: 0;
         }
 
         h1 {
@@ -48,7 +49,7 @@
             text-align: center;
             padding: 30px;
             align-items: center;
-            transform: rotate(10deg);
+           
 
 
         }
@@ -59,13 +60,47 @@
             text-transform: uppercase;
             font-weight: bold;
             font-size: 45px;
-            transform: rotate(-10deg);
+            transform: rotate(-1deg);
             
+        }
+
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: inline;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+        }
+        nav{
+            
+            background-color: #ab824c;
+            justify-content: space-between;
+            border-radius: 12px;
+        }
+        nav a{
+            text-decoration: none;
+            float: right;
+            align-items: end;
+            padding: 18px;
+            font-size: 22px;
+            color: red;
+            font-weight: bold;
+            cursor: pointer;
+
         }
     </style>
 </head>
 
 <body>
+
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
     <h1>Contacto Dirección</h1>
     <h3>Stephen Karikari</h3>
     <div class="parra">
@@ -77,6 +112,8 @@
     <br>
 
     <a href="./home.html">Volve </a>
+    <hr>
+    <a href="./image.html">Volve de Imagen </a>
 </body>
 
 </html>
