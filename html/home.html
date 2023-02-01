@@ -6,13 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #c3c3c3;
+            padding: 20px;
+        }
+        h1, h2{
+            text-align: center;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            flex-wrap: wrap;
+            padding: 30px;
+            
+            height: auto;
+        }
+        a{
+            text-decoration: none;
+            color: red;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Welcome to my Website</h1> 
     <a href="./iframes.html">Mapa de Terrassa</a> <br>
+
+    <a href="./googlemap.html">google</a>
     <hr>
     <a href="#home"> link</a>
+    <a href="./elementos-multimedia.html">Video</a>
     <h1>Pagina 1</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione ullam harum, recusandae reprehenderit, autem
         eos blanditiis fuga quisquam optio sed eveniet hic pariatur? Dolore non, vel praesentium expedita veritatis
@@ -26,6 +58,16 @@
         optio sapiente aperiam, sunt eaque aut nisi deserunt.</p>
 
     <hr>
+
+    <video id="video" width="420" height="340" controls="controls" autoplay="autoplay" loop="loop">
+        <source src="/videos/video.mp4" type="video/mp4">
+    </video>
+    <audio controls="controls">
+        <source src="/videos/risk-136788.mp3" type="audio/ogg">
+        <source src="img/horse.mp3" type="audio/mpeg">
+        <source src="img/horse.wav" type="audio/wav">
+        Tu navegador no es compatible con la etiqueta audio.
+        </audio>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione ullam harum, recusandae reprehenderit, autem
         eos blanditiis fuga quisquam optio sed eveniet hic pariatur? Dolore non, vel praesentium expedita veritatis
         illum enim quisquam commodi excepturi reprehenderit nihil! Quisquam molestias, consequuntur quae exercitationem,
@@ -387,6 +429,7 @@
         optio sapiente aperiam, sunt eaque aut nisi deserunt.</p>
 
     <hr>
+    
    <a href="/">
     <img src="https://images.unsplash.com/photo-1675060176173-83bd72adc58d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
    </a>
