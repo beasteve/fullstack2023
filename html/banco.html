@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banco</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+      }
+      .div {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+
+        background-color: #2ddf5c;
+        color: wheat;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      h1 {
+        color: aqua;
+        padding: 20px;
+        display: block;
+        font-weight: bold;
+      }
+      nav {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+      }
+      li {
+        padding: 20px;
+        margin: 20px;
+        font-size: 24px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+      }
+
+      .parro {
+        display: block;
+        width: 320px;
+        text-align: justify;
+        margin: 10px;
+        border: 1px solid purple;
+        padding: 20px 10px;
+        border-radius: 10px;
+        margin: 4px;
+        flex-direction: column;
+      }
+      p {
+        border: 1px solid #091006;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+      }
+
+      .rightfloat {
+        float: right;
+        display: flex;
+        width: 320px;
+        position: relative;
+        padding-top: 20px;
+    }
+    
+    .rightfloat p{
+          position: absolute;
+          right: 50px;
+          bottom: 300px;
+
+      }
+
+      footer {
+        text-align: center;
+        background-color: aqua;
+        min-height: 180px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <h1>Banco</h1>
+      <nav>
+        <li>Home</li>
+        <li>Service</li>
+
+        <li>about</li>
+      </nav>
+    </div>
+    <h2>hello</h2>
+    <div class="parro">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+        consequuntur similique amet mollitia cumque ex voluptatum quibusdam ipsa
+        autem alias possimus excepturi voluptates, voluptas magnam quisquam
+        dolor adipisci. A, obcaecati? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Possimus, quod aliquam asperiores eligendi neque
+        ratione alias ullam consequuntur soluta esse adipisci quaerat eius,
+        deserunt beatae culpa repellat odit atque libero?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
+        temporibus quasi nulla excepturi consequuntur, commodi tenetur incidunt
+        beatae quos at tempora tempore enim, aspernatur iusto, dicta doloremque
+        rerum rem fugit?
+      </p>
+    </div>
+
+    <div class="rightfloat">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit
+        dolores vitae mollitia aperiam, et quos eum tempore quo enim est quasi
+        quam cupiditate possimus beatae deleniti voluptatibus itaque labore id.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+        blanditiis odit veniam, voluptas temporibus consequuntur nisi id
+        veritatis quibusdam distinctio! Excepturi provident suscipit numquam,
+        ullam odit distinctio aliquam repudiandae placeat.
+      </p>
+      <h3>Segundo</h3>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit
+        dolores vitae mollitia aperiam, et quos eum tempore quo enim est quasi
+        quam cupiditate possimus beatae deleniti voluptatibus itaque labore id.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+        blanditiis odit veniam, voluptas temporibus consequuntur nisi id
+        veritatis quibusdam distinctio! Excepturi provident suscipit numquam,
+        ullam odit distinctio aliquam repudiandae placeat.
+      </p>
+    </div>
+
+    <footer>
+      <h3>Footer</h3>
+    </footer>
+  </body>
+</html>
