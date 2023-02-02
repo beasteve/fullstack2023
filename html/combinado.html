@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        h2 + p{
+            color: green !important;
+        }  
+         h2 ~ p{
+            color: red ;
+        }  
+        h2
+        div > p{
+            color: yellow ;
+        }
+
+        section > p{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>No Aplica</h2>
+        <p>Aplica</p>
+        <h3>No Aplic</h3>
+        <p>Aplica</p>
+        <h4>No Aplic</h3>
+        <p> No Aplica</p>
+        <h3>No Aplic</h3>
+        <section>
+            <p style="color: blue">Si No Aplica</p>
+        </section>
+    </div>
+</body>
+</html>
