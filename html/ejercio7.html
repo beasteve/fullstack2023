@@ -1,85 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Banco 7</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-        * {
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            scroll-behavior: smooth;
         }
-
-        .main-header {
+        header.main-header{
             background-color: #2ddf5c;
             padding: 8px 16px;
             width: 100%;
-            display: inline-block;
         }
-
-
-
-        nav.main-nav {
+        nav.main-nav{
             display: inline-block;
-            width: calc(100% - 89px);
-
             text-align: right;
-
-        }
-
-        ul.main-nav_items {
-            display: block;
-
-        }
-
-        nav ul {
-            display: inline-block;
+            width: calc(100% - 90px);
             
         }
-
-        li.main-nav_item {
+        li{
             display: inline-block;
-
+            width: 100%;
+            margin: 20px;
+           
         }
-        img{
-            border-radius: 50%;
-            border: 2px solid white;
+        ul.main-nav_items{
+           display: inline-block;
+            padding: 0;
+            margin: 0;
+            list-style: none;
         }
-
-        .main-header  h1{
-
-            color: white;
+        header.main-header>div{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .main-header.main-header_brand{
+            color: #fff;
+            text-decoration: none;
             font-weight: bold;
-        } 
-        
+            font: 22px;
+        }
     </style>
 </head>
-
 <body>
-
-    <div class="main-header">
-
-        <div>
-            <img src="https://images.pexels.com/photos/12509001/pexels-photo-12509001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                height="120" width="120" alt="">
-            <h1 class="mian-header_brand">Banco de Terrassa</h1>
+    <header class="main-header">
+        <div >
+            <h1 class="main-header_brand">Banco</h1>
         </div>
-        <div>
-            <nav class="main-nav">
-                <ul class="main-nav_items">
-                    <li class="main-nav_item">Start</li>
-                    <li class="main-nav_item">Home</li>
-                    <li class="main-nav_item">Blog</li>
-                </ul>
-            </nav>
-        </div>
-
+        <nav class="main-nav">
+            <ul class="main-nav_items">
+                <li class="main-nav_item">Home</li>
+                <li class="main-nav_item">FAQS</li>
+                <li class="main-nav_item">Service</li>
+                <li class="main-nav_item">about</li>
+            </ul>
+        </nav>
+    </header>
 </body>
-
 </html>
