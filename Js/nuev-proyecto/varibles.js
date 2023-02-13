@@ -44,3 +44,28 @@
 // else{
 //     return console.log("Woff")
 // }
+
+
+
+// let palindromo = "aibofobia";
+// let inverso = "";
+// for (let i = palindromo.length-1; i>=0; i--){
+//    inverso += palindromo.charAt(i);
+//     console.log(i)
+// }
+
+// if(palindromo == inverso){
+//     console.log("la varibles palindromo: " + palindromo
+//      + "es en palindromo");
+// } else{
+//     console.log("la varibles palindromo: " + palindromo
+//     + "es no palindromo")
+// }
+
+
+// let text = "Hola Buenas";
+// text = text.slice(0, -1);
+// console.log(text);
+// text = text.substring(0, text.length-1);
+// console.log(text)
+
